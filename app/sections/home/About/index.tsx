@@ -1,6 +1,5 @@
 import { Link } from "@remix-run/react";
-import { HiMiniArrowLongRight } from "react-icons/hi2";
-import { SectionTitle } from "~/layouts";
+import { ArrowButton, SectionTitle } from "~/components";
 
 const About = () => {
   return (
@@ -20,7 +19,7 @@ const About = () => {
                   subtitle="TENTANG PRANI"
                 />
               </div>
-              <p className="leading-relaxed tracking-wide mb-6">
+              <p className="description mb-6">
                 Di Prani, kami percaya bahwa setiap petani berhak mendapatkan
                 penghargaan atas kerja kerasnya. Kami hadir untuk mempertemukan
                 petani langsung dengan konsumen, tanpa perantara, agar hasil
@@ -28,15 +27,8 @@ const About = () => {
                 belah pihak.
               </p>
 
-              <Link
-                to="#how-it-works"
-                className="flex items-center gap-2 group text-primary font-semibold"
-              >
-                <span>Lihat Cara Kami Bekerja</span>
-                <HiMiniArrowLongRight
-                  className="transform transition-transform duration-500 group-hover:translate-x-4"
-                  size={24}
-                />
+              <Link to="#how-it-works">
+                <ArrowButton label="Lihat Cara Kami Bekerja" />
               </Link>
             </div>
           </div>
