@@ -2,7 +2,7 @@ import { SectionTitle } from "~/components";
 
 const Products = () => {
   return (
-    <section className="section">
+    <section className="section" id="products">
       <div className="container">
         <div className="mx-auto text-center">
           <SectionTitle
