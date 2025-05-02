@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-[14px] md:text-[16px];
+}
+
 .section {
   @apply pt-[96px];
 }
@@ -11,7 +15,7 @@
 }
 
 .btn {
-  @apply px-4 py-2 transition-all duration-300 rounded-md flex items-center gap-2;
+  @apply px-4 py-2 transition-all duration-300 rounded-md flex items-center justify-center gap-2;
 }
 
 .btn-primary {
