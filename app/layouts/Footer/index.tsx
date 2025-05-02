@@ -1,6 +1,5 @@
 import { Link } from "@remix-run/react";
 import { FaInstagram } from "react-icons/fa";
-import { TbBrandShopee } from "react-icons/tb";
 import { navMenus } from "~/constants/menu";
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
       <div className="bg-gray-50">
         <div className="container py-10">
           <div className="grid grid-cols-12 gap-5">
-            <div className="col-span-6">
+            <div className="col-span-12 lg:col-span-6">
               <h2 className="font-bold text-3xl mb-5">Prani</h2>
               <div className="max-w-[400px]">
                 <p className="mb-3">
@@ -24,7 +23,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-12 md:col-span-6 lg:col-span-3">
               <h5 className="text-lg font-bold mb-4 text-secondary">Company</h5>
               <ul>
                 {navMenus.map((menu, i) => {
@@ -41,7 +40,7 @@ const Footer = () => {
                 })}
               </ul>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-12 md:col-span-6 lg:col-span-3">
               <h5 className="text-lg font-bold mb-4 text-secondary">
                 Get in Touch
               </h5>
@@ -65,18 +64,6 @@ const Footer = () => {
                     <div className="flex items-center gap-2">
                       <FaInstagram size={18} />
                       <span>Instagram</span>
-                    </div>
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a
-                    href="https://shopee.co.id"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="flex items-center gap-2">
-                      <TbBrandShopee size={18} />
-                      <span>Shopee</span>
                     </div>
                   </a>
                 </li>

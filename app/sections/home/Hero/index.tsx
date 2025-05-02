@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
         <div className="container lg:max-w-3xl py-32">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div className="mb-4 md:mb-8 flex justify-center">
             <div className="relative rounded-full px-4 py-1 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Harga <span className="text-primary font-bold">Adil</span>, Hasil{" "}
               <span className="text-primary font-bold">Maksimal</span>

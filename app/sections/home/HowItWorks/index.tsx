@@ -23,7 +23,7 @@ const HowItWorks = () => {
               const Icon = item.icon;
 
               return (
-                <div className="col-span-6" key={index}>
+                <div className="col-span-12 lg:col-span-6" key={index}>
                   <div className="bg-gray-100/35 backdrop-blur-md rounded-3xl py-6 px-8 shadow-md transform transition-transform duration-500 hover:-translate-y-1">
                     <div className="p-4 bg-primary/10 rounded-2xl w-fit mb-4">
                       <Icon className="text-primary" size={50} />

@@ -5,8 +5,8 @@ const About = () => {
   return (
     <section className="section relative z-[1]" id="about">
       <div className="container">
-        <div className="grid grid-cols-12 gap-10 items-center">
-          <div className="col-span-6">
+        <div className="grid grid-cols-12 gap-4 md:gap-8 lg:gap-10 items-center">
+          <div className="col-span-12 lg:col-span-6">
             <div>
               <div className="max-w-[460px]">
                 <SectionTitle
@@ -32,7 +32,7 @@ const About = () => {
               </Link>
             </div>
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 lg:col-span-6">
             <div className="grid grid-cols-12 grid-rows-12 gap-4 min-h-[400px]">
               <div className="col-span-4 row-span-12">
                 <div className="grid grid-rows-12 gap-4 h-full">
