@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-balance text-4xl md:text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+            <h1 className="text-balance text-4xl sm:text-5xl md:text-7xl font-semibold tracking-tight text-gray-900">
               Menghubungkan Petani Langsung ke Pembeli.
             </h1>
             <p className="mt-8 text-pretty text-base md:text-lg font-medium text-gray-500 sm:text-xl/8">
