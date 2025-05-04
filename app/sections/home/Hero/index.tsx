@@ -14,7 +14,7 @@ const Hero = () => {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-secondary/55 to-green-300 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="container lg:max-w-3xl py-32">
+        <div className="container lg:max-w-3xl py-24 md:py-32">
           <div className="mb-4 md:mb-8 flex justify-center">
             <div className="relative rounded-full px-4 py-1 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Harga <span className="text-primary font-bold">Adil</span>, Hasil{" "}
@@ -22,16 +22,16 @@ const Hero = () => {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+            <h1 className="text-balance text-4xl md:text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
               Menghubungkan Petani Langsung ke Pembeli.
             </h1>
-            <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+            <p className="mt-8 text-pretty text-base md:text-lg font-medium text-gray-500 sm:text-xl/8">
               Tanpa perantara dan tanpa potongan harga. Dengan Prani, hasil
               kerja keras petani dihargai sepenuhnya dan kamu mendapat hasil
               terbaik langsung dari sumbernya.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <button className="btn btn-primary text-lg !px-6 !py-3">
+              <button className="btn btn-primary text-base md:text-lg md:!px-6 md:!py-3">
                 Lihat Produk
               </button>
             </div>

@@ -18,7 +18,7 @@ const HowItWorks = () => {
 
         <div className="relative">
           <div className="rounded-full w-[400px] h-[400px] bg-primary/20 blur-3xl absolute -left-[200px] -top-[100px]" />
-          <div className="grid grid-cols-12 gap-8 max-w-5xl mx-auto relative z-[2]">
+          <div className="grid grid-cols-12 gap-4 md:gap-8 max-w-5xl mx-auto relative z-[2]">
             {howItWorks.map((item, index) => {
               const Icon = item.icon;
 
