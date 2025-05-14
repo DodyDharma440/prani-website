@@ -37,16 +37,37 @@ const About = () => {
               <div className="col-span-4 row-span-12">
                 <div className="grid grid-rows-12 gap-4 h-full">
                   <div className="row-span-4">
-                    <div className="bg-gray-200 w-full h-full rounded-lg shadow-md"></div>
+                    <div className="bg-gray-200 w-full h-full rounded-lg shadow-md overflow-hidden">
+                      <img
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                        alt="1"
+                        src="/1.jpeg"
+                      />
+                    </div>
                   </div>
                   <div className="row-span-8">
-                    <div className="bg-gray-200 w-full h-full rounded-lg shadow-md"></div>
+                    <div className="bg-gray-200 w-full h-full rounded-lg shadow-md overflow-hidden">
+                      <img
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                        alt="4"
+                        src="/4.jpeg"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="col-span-8 row-span-2"></div>
               <div className="col-span-8 row-span-10">
-                <div className="bg-gray-200 w-full h-full rounded-lg shadow-md"></div>
+                <div className="bg-gray-200 w-full h-full rounded-lg shadow-md overflow-hidden">
+                  <img
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    alt="3"
+                    src="/3.jpeg"
+                  />
+                </div>
               </div>
             </div>
           </div>

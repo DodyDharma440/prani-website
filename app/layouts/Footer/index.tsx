@@ -12,10 +12,9 @@ const Footer = () => {
               <h2 className="font-bold text-3xl mb-5">Prani</h2>
               <div className="max-w-[400px]">
                 <p className="mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  imperdiet nisl tortor, ut commodo nisi feugiat vitae. Proin
-                  bibendum sagittis mi vitae interdum. Etiam fringilla dolor sed
-                  metus viverra rutrum.
+                  Tanpa perantara dan tanpa potongan harga. Dengan Prani, hasil
+                  kerja keras petani dihargai sepenuhnya dan kamu mendapat hasil
+                  terbaik langsung dari sumbernya.
                 </p>
                 <p className="text-gray-500">
                   Jl. Tukad Badung No.135, Renon, Denpasar Selatan, Kota
