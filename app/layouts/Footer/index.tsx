@@ -12,8 +12,8 @@ const Footer = () => {
               <h2 className="font-bold text-3xl mb-5">Prani</h2>
               <div className="max-w-[400px]">
                 <p className="mb-3">
-                  Tanpa perantara dan tanpa potongan harga. Dengan Prani, hasil
-                  kerja keras petani dihargai sepenuhnya dan kamu mendapat hasil
+                  Beli hasil petani tanpa perantara. Dengan Prani, hasil kerja
+                  keras petani dihargai sepenuhnya dan kamu mendapat hasil
                   terbaik langsung dari sumbernya.
                 </p>
                 <p className="text-gray-500">
@@ -45,13 +45,21 @@ const Footer = () => {
               </h5>
               <ul>
                 <li className="mb-3">
-                  <a href="mailto:" target="_blank" rel="noreferrer">
-                    prani@gmail.com
+                  <a
+                    href="mailto:praniid2025@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    praniid2025@gmail.com
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a href="tel:" target="_blank" rel="noreferrer">
-                    +62 899-9999-999
+                  <a
+                    href="https://wa.me/6281916627483"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    +62 819-1662-7483
                   </a>
                 </li>
                 <li className="mb-3">

@@ -26,9 +26,9 @@ const Hero = () => {
               Menghubungkan Petani Langsung ke Pembeli.
             </h1>
             <p className="mt-8 text-pretty text-base md:text-lg font-medium text-gray-500 sm:text-xl/8">
-              Tanpa perantara dan tanpa potongan harga. Dengan Prani, hasil
-              kerja keras petani dihargai sepenuhnya dan kamu mendapat hasil
-              terbaik langsung dari sumbernya.
+              Beli hasil petani tanpa perantara. Dengan Prani, hasil kerja keras
+              petani dihargai sepenuhnya dan kamu mendapat hasil terbaik
+              langsung dari sumbernya.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <button className="btn btn-primary text-base md:text-lg md:!px-6 md:!py-3">

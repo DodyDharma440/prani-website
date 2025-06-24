@@ -27,7 +27,13 @@ const Navbar = () => {
         <div className="container mx-auto flex items-center justify-between py-3 md:py-5">
           <div className="w-[125px]">
             <Link to="/">
-              <h1 className="font-bold text-2xl">Prani</h1>
+              <div className="h-10 w-full relative overflow-hidden">
+                <img
+                  src="/logo-black.png"
+                  alt="logo"
+                  className="w-full h-full object-contain transform -translate-y-0.5"
+                />
+              </div>
             </Link>
           </div>
           <div className="flex-1 hidden lg:flex items-center justify-center gap-8">
@@ -45,7 +51,7 @@ const Navbar = () => {
             })}
           </div>
           <div className="w-[125px] hidden lg:block">
-            <a href="https://lynk.id" target="_blank" rel="noreferrer">
+            <a href="https://lynk.id/praniid" target="_blank" rel="noreferrer">
               <button className="btn btn-primary">
                 <span>Produk Kami</span>
               </button>
@@ -89,7 +95,7 @@ const Navbar = () => {
                     );
                   })}
                   <a
-                    href="https://lynk.id"
+                    href="https://lynk.id/praniid"
                     target="_blank"
                     rel="noreferrer"
                     className="w-full"

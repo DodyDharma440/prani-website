@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="grid grid-cols-12 gap-4 md:gap-6 lg:gap-10 items-center">
           <div className="col-span-12 lg:col-span-6">
             <div className="relative transform -translate-x-10 group">
-              <div className="min-h-[400px] bg-gray-200 rounded-r-2xl relative z-[3] transition-transform duration-700 group-hover:-translate-y-2 overflow-hidden">
+              <div className="max-h-[400px] bg-gray-200 rounded-r-2xl relative z-[3] transition-transform duration-700 group-hover:-translate-y-2 overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
                   loading="lazy"
