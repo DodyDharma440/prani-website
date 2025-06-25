@@ -31,9 +31,15 @@ const Hero = () => {
               langsung dari sumbernya.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <button className="btn btn-primary text-base md:text-lg md:!px-6 md:!py-3">
-                Lihat Produk
-              </button>
+              <a
+                href="https://lynk.id/praniid"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-primary text-base md:text-lg md:!px-6 md:!py-3">
+                  Lihat Produk
+                </button>
+              </a>
             </div>
           </div>
         </div>

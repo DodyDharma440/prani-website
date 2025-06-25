@@ -24,12 +24,15 @@ const HowItWorks = () => {
 
               return (
                 <div className="col-span-12 lg:col-span-6" key={index}>
-                  <div className="bg-gray-100/35 backdrop-blur-md rounded-3xl py-6 px-8 shadow-md transform transition-transform duration-500 hover:-translate-y-1">
+                  <div className="bg-gray-100/35 h-full backdrop-blur-md rounded-3xl py-6 px-8 shadow-md transform transition-transform duration-500 hover:-translate-y-1">
                     <div className="p-4 bg-primary/10 rounded-2xl w-fit mb-4">
                       <Icon className="text-primary" size={50} />
                     </div>
                     <h5 className="text-2xl font-bold mb-2">{item.title}</h5>
-                    <p className="text-gray-600">{item.description}</p>
+                    <div
+                      className="text-gray-600 [&>a]:text-primary [&>a]:font-semibold [&>a]:underline"
+                      dangerouslySetInnerHTML={{ __html: item.description }}
+                    />
                   </div>
                 </div>
               );

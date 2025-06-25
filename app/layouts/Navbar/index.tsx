@@ -31,7 +31,7 @@ const Navbar = () => {
                 <img
                   src="/logo-black.png"
                   alt="logo"
-                  className="w-full h-full object-contain transform -translate-y-0.5"
+                  className="w-full h-full object-contain object-left transform -translate-y-0.5"
                 />
               </div>
             </Link>

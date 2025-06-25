@@ -32,7 +32,11 @@ const Contact = () => {
               Punya pertanyaan atau ingin bekerja sama? Jangan ragu untuk
               menghubungi kami. Kami siap membantu Anda kapan saja.
             </p>
-            <Link to="#">
+            <Link
+              to="https://wa.me/6281916627483"
+              target="_blank"
+              rel="noreferrer"
+            >
               <ArrowButton label="Hubungi Via WhatsApp" />
             </Link>
           </div>
